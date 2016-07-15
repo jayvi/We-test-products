@@ -1,0 +1,1338 @@
+<!-- @2015_11_06  - Modified by R - hidden logo and "edited" text - http://screencast.com/t/h1B3uuDrRE   -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AussieMethod L</title>
+	<link media="all" type="text/css" rel="stylesheet" href="../../../css/backend.css">
+	
+	<link media="all" type="text/css" rel="stylesheet" href="../../../css/bootstrap.css">
+	
+	<script src="../../../js/jquery.js"></script>
+ 
+	<script src="../../../js/bootstrap.js"></script>
+		
+	<script src="../../../js/plugins/jqueryCookie/jquery.cookie.js"></script>
+		
+	<link media="all" type="text/css" rel="stylesheet" href="../../../css/tpl_css/apple_christmass2.css">
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<style>
+
+#overlay {
+    z-index:999;
+}
+body {
+    background:#363636
+}
+.disclaimer {
+    margin-bottom: 0px !important ;
+      margin-top: 0px !important ;
+}
+
+.container-fluid {
+    padding:0px
+}
+.navbar {
+        background: #1b1917 none repeat scroll 0 0;
+	text-align:center;
+	padding: 15px 0px;
+	    margin-bottom: 0px;
+}
+
+.innercontent p {
+    color:#fff;
+    font-size:20px;
+}
+.innercontent h1 {    color: #531c1c;text-align:center;padding-top:0px;    margin-top: 0px;}
+.wrapper {
+    width:100%;
+    max-width:1191px;
+    margin:0px auto;
+}
+.navbar h1 {
+    color:#62a873;
+    font-size:32px;
+    font-weight:bold;
+        margin-bottom: 0px;
+	margin-top: 0px
+    
+}
+
+.navbar h2 {
+ color:#fff;
+    font-size:24px;
+        margin-top: 10px
+}
+
+.navbar h3 {
+ color:#62a873;
+    font-size:21px;
+        margin-top: 10px;
+	margin-bottom: 0px
+}
+
+.radio .btn:hover, .radio .btn:focus, .radio .btn.focus{
+       background:#dd0a0a !important;
+}
+
+input.clickmep:hover, input.clickmep:focus{
+    background:#CE4C19!important;
+           box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.24);
+   
+    
+}
+
+.main {
+    background:url('../../../uploads/20160302113206_map1.jpg') no-repeat;
+    background-size:100%;
+    height:818px;
+        display: table;
+	clear:both;
+	position:relative
+}
+
+.bubble{
+   background: url('../../../uploads/casino_funnel/buble.png') no-repeat;
+    width: 346px;
+    height: 192px;
+    position: absolute;
+    right: 11.5%;
+    top: 3%;
+}
+
+.bubble p{
+        color: #fff;
+    font-size: 13px;
+    width: 245px;
+    margin-top: 39px;
+    margin-left: 75px;
+}
+.mainContainer {
+      width: auto;
+    float: left;
+    margin-left: 9%;
+    margin-top: 7%;
+        clear: both;
+}
+
+.questionsDiv {
+        width: auto;
+    display: table;
+}
+
+#head-padding {
+    padding-top:0px !important
+}
+
+.formBackground{
+	width: 317px;
+    border: 4px solid #fff;
+    background: #62a873;
+    padding: 10px 28px;
+    box-sizing: content-box;
+    float: left;
+    clear: both;
+	min-height: 599px;
+    max-height: 665px;
+	background: #808080 none repeat scroll 0 0 !important;
+}
+
+.previewImg {
+	clear: both;
+    float: none;
+    margin: 0px auto;
+    width: 301px;
+    height: 238px;
+	background-position: top center;
+}
+
+.rowproducts {
+   width: 100%;
+}
+	
+.underAnswers p {
+	color: #fff;
+    font-size: 14px;
+    margin-top: 18px;
+    float: left;
+    clear: both;
+    margin-bottom: 0px
+}
+.innercontent {
+    background:none;
+    padding:0px
+}
+
+.formTile {
+    width: 301px;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    background: #62a873;
+    padding:5px 10px;
+    box-sizing: content-box;
+    margin: 0px auto;
+    text-align:center;
+    border-top-left-radius:8px;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topLeft:8px;
+	border-top-right-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topRight:8px;
+	background: #808080 none repeat scroll 0 0;     
+}
+
+.formTile p {
+	margin:0px;
+	color:#fff;
+	font-size:19px    
+}
+
+#counter {
+    background:none !important;
+    font-size:36px;
+    color:#531c1c !important;
+    width:100%;
+    text-align:center;
+    margin:0px !important;
+    display:block !important;
+	padding: 0px;	
+}
+
+#counter:active{
+    box-shadow:none
+}
+
+#answers {display:block !important;}
+
+#question {
+	font-size: 23px;
+    color: #fff !important;
+    padding: 20px 0px 0px 0px;
+    float: left;
+    width: 100%;
+}
+
+.ladyText {
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    background: #fff;  
+    box-sizing: content-box;
+    position:relative;
+    padding-bottom:10px;
+    z-index: 0;
+}
+
+.contentText {
+	width: 47%;
+	float:left;
+	margin-left:13%;
+}
+ 
+.lady {
+	/*
+	position:absolute;
+	right:10%;
+	bottom:0px
+	*/
+	position:relative;	
+	bottom:0px ;	
+}
+    
+    
+.redBtn {
+    background:#dd0a0a !important;
+}
+.contentText h2, .contentText h3{
+	font-size:18px;
+	color:#62a873
+}
+    
+.greenc {
+    color:#62a873
+}
+
+.contentText p{
+	font-size: 16px;
+    color: #797979;
+    line-height: 21px;
+    font-weight: bold;
+    margin-top: 8px;
+    float: left;
+}
+
+.testWrapper {
+	margin-top: 20px;
+	width: 100%;
+	background: #fff;
+	padding: 0px 0px  50px 0px;
+	float: left;    
+}
+
+.testimonials {
+	width: 90%;
+    float: none;
+    clear: both;
+    margin: 0px auto;
+    border: 0px;
+    display: table;
+    padding: 0px;
+}
+
+.testimonials h3 {
+	font-size:23px;
+	color:#62a873;    
+}
+
+.test {
+	width: 239px;
+    float: left;
+    margin: 0px 15px;
+    background: #62a873;
+    border-radius: 50%;
+    min-height: 256px;
+    padding: 10px 44px 53px 44px;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.testimonials img {
+    display: block;
+    margin: auto;
+    float: none;
+}
+
+.testimonials p {
+	margin: 10px 0px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.name{
+	font-size:14px;
+	position: absolute;
+	bottom: 20px;
+	left: 28%;    
+}
+
+@media  screen and (max-width:1209px){
+.navbar h1 {
+    
+    font-size: 29px;}
+
+.navbar h2 {
+
+    font-size: 21px;  }
+    
+    
+
+.main {
+    background: url('../../../uploads/20160302113206_map1.jpg') no-repeat;
+    background-size: initial;
+        background-position: 20% 0%;}
+    
+  .mainContainer {
+
+        margin-left: 3%;}
+  
+  
+  .testimonials {
+      max-width: 971px;
+      width: 100%;}  
+    .testimonials img{
+	    width: 51%;
+    }
+    
+.test {
+    width: 237px;
+   
+    margin: 0px 9px;
+  min-height:273px;
+    padding: 10px 34px 53px 34px;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.testimonials p {
+   
+    font-size: 14px;
+  
+    line-height: 18px;
+}
+
+.bubble {
+         background-size: 100%;
+    width: 306px;
+    right: initial;
+    top: 6%;
+    left: 68%;
+}
+
+.bubble p {
+    color: #fff;
+    font-size: 12px;
+    width: 78%;
+    margin-top: 12%;
+    margin-left: 17%;
+}
+
+.contentText p {
+    font-size: 15px;}
+
+}
+
+
+@media  screen and (max-width:1024px){
+    .bubble {
+    background-size: 100% !important;
+    width: 296px;
+    right: initial;
+    top: 41%;
+    left: 62%;
+    background: url('../../../uploads/casino_funnel/buble-flip.png') no-repeat;}
+    
+    .bubble p {
+    color: #fff;
+    font-size: 12px;
+    width: 77%;
+    margin-top: 11%;
+    margin-left: 17%;
+    line-height: 16px;}
+    
+    
+.navbar h1 {
+    font-size: 22px;
+}
+
+.navbar h2 {
+    font-size: 17px;
+}
+
+.navbar h3 {
+
+    font-size: 19px;
+}
+
+.contentText {
+    width: 56%;
+    margin-left: 4%;
+}
+.lady {
+    
+    right: 3%;}
+    
+.contentText p {
+    font-size: 13px;
+}
+
+.testimonials {
+    width: 100%;
+    max-width: 783px;}
+    .testimonials p {
+    font-size: 14px;
+    line-height: 16px;
+}
+.test {
+        width: 191px;
+    margin: 0px 5px;
+    padding: 10px 30px 53px 30px;
+    min-height: 216px;}
+    
+    .testimonials img {
+    width: 34%;
+}
+}
+
+
+@media  screen and (max-width:800px){
+
+.main {
+    background: url('../../../uploads/20160302113206_map1.jpg') no-repeat;
+    background-size: 290%;
+    background-position: 28% 0%;
+    
+}
+    .navbar h1 {
+    font-size: 19px;}
+    
+    .navbar h2 {
+    font-size: 15px;
+}
+
+.previewImg {
+    clear: both;
+    float: none;
+    margin: 0px auto;
+    width: 251px;
+    height: 198px;
+    background-position: top center;
+}
+.navbar h3 {
+    font-size: 17px;
+}
+.formBackground {
+    width: 267px;}
+    
+.formTile {
+    width: 283px;}
+    
+ .formTile p {
+ 
+    font-size: 17px;}   
+    #counter {
+   
+    font-size: 26px;}
+    
+#question {
+    font-size: 17px !important;}
+    
+.bubble {
+    background-size: 100% !important;
+    width: 296px;
+    right: initial;
+    top: initial;
+    left: initial;
+      height: 168px;
+    position: relative;
+    background: url('../../../uploads/casino_funnel/buble-flip-right.png') no-repeat;
+     margin-left:3%;
+     margin-top: 5%;
+     
+    float: left;}
+     
+    .bubble p {
+
+    margin-left: 11%;
+    }
+    
+.lady {
+    right: 0%;
+    width: 39%;
+    max-width: 270px;}
+    
+.test {
+   width: 240px;
+   
+    margin: 0px 9px;
+    padding: 10px 9% 53px 11%;
+    min-height: 216px;
+    floaT: none;
+    clear: both;
+    margin: 20px auto;
+}
+
+.clickmep {
+    width:100% !important;
+    max-width:initial !important;
+    margin-left:0px !important
+}
+.innercontent h1 {
+   font-size: 26px !important;;
+}
+
+ .innercontent p{   font-size: 17px !important;}
+   .pdesc p {color:#fff;    font-size: 14px;}
+}
+
+@media  screen and (max-width:480px){
+    .contentText {
+        width: 92%;
+    margin-left: 4%;
+    }
+    .lady {
+    right: initial;
+    width: 57%;
+    position: relative;
+    bottom: initial;
+    display: block;
+    margin: 0px auto;
+}
+
+.bubble {
+    background-size: 100% 100%!important;
+    width: 228px;
+    height: 198px;
+    background: url('../../../uploads/casino_funnel/buble-flip-right.png') no-repeat;
+    margin-left: 1%;
+   
+    float: left;
+}
+
+.previewImg {
+   
+    width: 100%;}
+
+.bubble p {
+    margin-left: 12%;
+    width: 70%;
+}
+
+.mainContainer {
+    margin-left: 1%;
+}
+
+.formBackground {
+    width: 235px;
+    max-height: initial;
+}
+
+.formTile {
+    width: 271px;
+        
+}
+
+.formTile p {
+    font-size: 15px;
+}
+
+#counter {
+    font-size: 23px;
+}
+
+.row {
+    width:100%
+}
+
+
+}
+</style>
+	
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse " >
+		<div class="container-fluid">	
+			<div class="wrapper">				
+					<h1><big>Please make sure to answer truthfully so that we can be sure that you are a perfect match for the position.</big></h1>
+
+								
+			</div><!--wrapper-->
+			</div>
+		</div>
+	</nav>
+	<!--end of header-->
+		<div style="clear:both"></div>
+	
+	<!--starts of body-->
+	<div class="container-fluid">	
+		<div class="wrapper main">
+	    
+		   <!-- <h2 class="blue-font">Christmas Survey</h2>
+		    <h3 class="red-font">Is your name on the list?</h3>-->
+	    
+		    
+		    
+		    
+		    			    <div class="container-fluid mainContainer">
+			    
+				
+				    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					    <div class="row " id="head-padding" >						
+						    <div class="questionsDiv" style="display:block">
+							 <div class="formTile">
+							     <p>Please answer the following questions</p>							
+							</div><!--formTile-->
+							<div class="formBackground">
+							    
+							
+							    <div class="questions">
+										<div type="button" name="counter" id="counter" style="float: left; margin-top: 15px; display: none; cursor: default; color: rgb(255, 255, 255); background-color: rgb(70, 98, 158);" class="btn btn-lg btn-block">Question <span id="numRight">1</span> Of <span id="numQuestions">4</span></div>
+								   	<span id="question" style="font-size:21px;color:#6e6e6e;padding: 20px 0px 0px 0px;float: left; width: 100%;"></span>		
+								    <div class="clear"></div>
+									
+									
+								   	<div id="answers" style="margin: 0px auto; display: none; ">
+	<span style="clear:both"></span>
+	</div>	
+								   
+								    
+								   <br/><br/>
+								  
+							   </div><!--questions-->
+							   
+							    <div class="underAnswers">
+								
+								<p>Please make sure to answer truthfully so that we can be sure that you are a perfect match for the position.</p>
+								    <p></p>
+								    <p>Remember, this is a personality test for the position.</p>
+								    
+							    </div><!--underAnswers-->
+						       </div><!--formBackground-->    
+						    </div>  <!--questionsDiv--> 
+							    
+						    <div id="thank_you_text" style="display: none;">
+							
+							<div class="formTile">							     
+							     <p>Congratulations</p>							
+							</div><!--formTile-->
+							<div class="formBackground">
+								<div class="innercontent">
+								
+								</div>
+								<div id="products">
+									    									
+			<div class="rowproducts">
+								<a href="http://aptrk1.com/?a=251&oc=2968&c=8238&m=3&s1=loamfu" target="_blank" border="0"><div class="clickmea previewImg" style="background-image: url('../../../uploads/products/20160304111135_aussie2.jpg');"></div></a>
+								<a rel="noreferrer" class="sameProdLinkaA clickmea" href="http://aptrk1.com/?a=251&oc=2968&c=8238&m=3&s1=loamfu" target="_blank" class="clickmea" pid="298"><input type="button" style="    display: -moz-inline-box; width: 100%;border: 0px;background: linear-gradient(#ec6030,#e55b2b,#f07e56) ;border-radius: 5px;outline: none;display:inline-block; padding: 15px 0px;max-width: 249px;clear: both;margin:20px 0px 20px 12%; float: none;" value="Click here" class="clickmep"/></a>	
+				<div class="pdesc">
+				<p style="text-align: center;">You have been pre-approved to join based on your answers.<br />
+<br />
+Please fill in your details and start making a better living today.</p>
+
+				</div>
+			</div>
+						
+																					
+								    </div>
+									
+							 </div><!--formBackground-->    
+								
+							</div>
+						
+					    </div>
+				    </div>
+				    
+				    <div class="row vertical-center-row">
+					    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						    <div class="row " style="padding: 0 px;">				
+							    <center  style="font-size: 21px; font-weight: bold;margin: 0px 0;">
+								    <div id="loading">
+									    Checking your Answers
+													    
+										    
+										    <p id="load_l1" style="text-align:left; font-size: 15px;    margin-bottom: 5px;    margin-bottom: 5px;
+			margin-top: 150px;">No previous entries found</p>
+										    <p id="load_l2" style="text-align:left;    font-size: 15px;    margin-bottom: 5px;">We have (2) available spots</p>
+										    <p id="load_l3" style="text-align:left;    font-size: 15px;    margin-bottom: 5px;">You have qualified for (1) iPhone 6S </p>
+									    
+								    </div>
+								    				
+							    </center>									
+						    </div>
+					    </div>
+				    </div>		
+				    
+				    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						    <div id="comments" style="display: none;">
+						    	<span style="font-size: 13px;">Comments </span>
+	<hr style="width: 100%; margin-top: 7px;margin-bottom: 7px;">
+	<span style="font-size: 13px;">6 Comments</span>		
+	<p><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Hi,<br />
+<br />
+We welcome you to the first part of your new career.<br />
+<br />
+You will now go through a quick personality test<br />
+to make sure that you will fit in and have the<br />
+desired skills to start working.<br />
+<br />
+Please be as honest as possible.</span></span></p>
+
+						    </div>
+					    <div class="disclaimer" style="margin-top: 20px; margin-bottom: 20px;">
+						 			
+					    </div>
+				    </div>
+					    		<div id="overlay" style="display: none;">
+		<div id="pop-up">
+				<h3>Welcome</h3>
+				<p><p style="text-align:center">We thank you for taking the time.<br />
+It will be worth it if you are chosen to join.</p>
+</p>
+								<div id="popup-footer">
+				<button id="accept-survey">TAKE THE TEST</button>
+				</div>
+		</div>
+	</div>	
+						    <script>
+
+
+$(document).ready(function(){	
+	
+	if(document.getElementById("count_down") !== null){
+		jQuery(function($) {			
+			var minutes =  document.getElementById("count_down").getAttribute("mins");
+			var fiveMinutes = 60 * minutes,
+				display = $('#count_down');
+			startTimer(fiveMinutes, display);
+		});		
+	}	    
+	
+	$('#proceed').click(function(){
+		$('#answers').show();
+		$('#counter').show();
+		$('.innercontent').hide();
+		$('.questions').show();
+		
+	});
+	
+	var randhiclass = document.querySelectorAll('[class="daterand"]');
+	if(randhiclass!== null){
+		var d = new Date();
+		var h = d.getHours();
+		h = h - 1;
+		var m = d.getMinutes();	
+		var r = rand(38,58,1);
+		var finalrand = h+':'+r;
+		for (var k = 0, length = randhiclass.length; k < length; k++) {			 
+			 randhiclass[k].innerHTML = finalrand;
+		}	
+	}
+//john
+	var mobile_fixed_height = jQuery('nav').height()+30+'px';
+	jQuery('#head-padding').css('paddingTop', mobile_fixed_height);
+//end of john
+	
+	survey_id = "417";	
+	
+	if(0==0){
+		var encodedCookie = btoa('offerWall');
+		var encodedCookieData = { campaign: '334', survey: survey_id, source: 'lo', subid: 'subid=am', firstSession: 'YvO3l8sEgzj9Oqe2eGfSPSOLgsYencPqgBBmQ0LA_334' };
+		$.cookie(encodedCookie, JSON.stringify(encodedCookieData), { path: '/', expires: 7 });		
+		
+		$.cookie('survey_id_'+survey_id, true, { path: '/', expires: 7 });	
+	}
+	
+	$.ajax({
+			url: "/survey/survey",
+			type: "POST",
+			data: { method: 'LoadLiveQuestions', survey: survey_id, browser: 'Unknown', subid: 'subid=am'  },
+			cache: false,
+			async: true,
+			dataType: 'json',
+			processData: 'false',
+			success: function(response) {				
+				var questions = response;
+				if(questions==0){
+					$('#survey-title').html('There are no questions available !');
+					return false;
+				}else{
+					displayQuestion(questions.shift(),response);
+				}
+				
+			},
+			fail: function(response) {
+				handle_ajax_error(response)
+			},
+			complete: function(){
+				//do nothing
+			}
+	});
+	
+	jQuery('#accept-survey').click(function(){
+				jQuery(this).remove();
+				jQuery('#overlay').remove();
+	});
+	$( "#overlay" ).fadeIn( "slow", function() {
+    
+	});
+	
+	
+});	
+
+	$(document).on('mouseover', '.radio', function() {
+	  $(this).children('label').css('color','#0b7c33');
+		$(this).children('.checkbx-img').css({'background-image':'url(/uploads/apple_christmass/check-green.png)', 'background-size': '95%', 'background-repeat':'no-repeat','background-position':'1px 1px'});
+	});
+	
+	$(document).on('mouseout', '.radio', function() {
+	$(this).children('label').css('color','#6e6e6e');
+		 $(this).children('.checkbx-img').css('background-image','');
+	});
+	
+	
+
+	
+
+	// $('#answers>.radio').hover(function(){
+  // $(this).children('label').css('color','#0b7c33');
+  // $(this).children('.checkbx-img').css({'background-image':'url(/uploads/apple_christmass/check-green.png)', 'background-size': '95%', 'background-repeat':'no-repeat','background-position':'1px 1px'});
+  // }, function(){
+   // $(this).children('label').css('color','#6e6e6e');
+   // $(this).children('.checkbx-img').css('background-image','');
+     // });
+
+	var i,
+	numRight = 1,
+	numQuestions = 0,
+	answerDiv = document.getElementById('answers'),
+	questionDiv = document.getElementById('question'),
+	numRightSpan = document.getElementById('numRight'),
+	numQuestionsSpan = document.getElementById('numQuestions');    
+	
+	if(0==0){
+		$(document).on({
+			click: function(){
+				var pid = $(this).attr('pid');
+				
+				var encodedCookieForProducs = 'cHJvZHVjdENvb2'+pid;	//tracking pixel cookie CPL
+				var encodedCookieForProducsCPA = 'cHJvZHVjdENQQQ'+pid;	// tracking cookie CPA	
+				var checkProductCookie = $.cookie(encodedCookieForProducs);
+				if(!checkProductCookie){
+					$.cookie(encodedCookieForProducs, 'triggerON', { path: '/', expires: 7 });
+					$.cookie(encodedCookieForProducsCPA, 'triggerON', { path: '/', expires: 7 });
+					
+					$.ajax({
+						url: "/survey/survey",
+						type: "POST",
+						data: { method: 'SetProductClick', product: pid, tracking_id: '329224' },
+						cache: false,
+						async: true,
+						dataType: 'json',
+						processData: 'false',
+						success: function(response) {
+							// console.log(response);					
+						},
+						fail: function(response) {
+							handle_ajax_error(response)
+						},
+						complete: function(){
+							// do nothing
+						}
+					});
+					
+				}
+				
+				var productsIds = '';
+									productsIds += 298+'_';
+								// console.log(productsIds);
+				var encodedProducts = btoa(productsIds);
+				$.ajax({
+					url: "/survey/survey",
+					type: "POST",
+					data: { method: 'SetServerPixel', survey: '417', campaign: '334', tracking_id: '329224', token: 'YvO3l8sEgzj9Oqe2eGfSPSOLgsYencPqgBBmQ0LA', products: encodedProducts, nrp: '', returnedClient: '0' },
+					cache: false,
+					async: true,
+					dataType: 'json',
+					processData: 'false',
+					success: function(response) {				
+						// var questions = response;
+						console.log(response);
+						// displayQuestion(questions.shift(),response);
+					},
+					fail: function(response) {
+						handle_ajax_error(response)
+					},
+					complete: function(){
+						//do nothing
+					}
+				});		
+				
+										
+			}
+		}, '.clickmea');
+	}
+	
+function displayQuestion(q,v) {
+	
+	if(typeof q == 'undefined') {	
+		var trackConv = $.cookie('conv_cid_334');
+		
+		$('.form-div').remove();
+		$('.questionsDiv').hide();
+		$('#counter').hide();		
+		$('#answers').hide();		
+		$('#loading').show();	
+				
+					
+		$('#loading').hide();		
+		var thank_text = atob('PHAgc3R5bGU9InRleHQtYWxpZ246Y2VudGVyIj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE0cHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+VGhhbmsgeW91IGZvciB5b3VyIGFuc3dlcnMhPC9zcGFuPjwvc3Bhbj48L3A+DQo=');
+		$('#thank_you_text').show();
+		$('.innercontent').html(thank_text);
+		$('.innercontent').show();
+		$('#products').show();
+		$('#counter').hide();			
+		
+		if(0==0){
+			if(!trackConv){
+				$.ajax({
+					url: "/survey/survey",
+					type: "POST",
+					data: { method: 'SetConversion', survey: '417', campaign: '334', source: 'lo', subid: 'subid=am', tracking_id: '329224' },
+					cache: false,
+					async: true,
+					dataType: 'json',
+					processData: 'false',
+					success: function(response) {				
+						
+					},
+					fail: function(response) {
+						handle_ajax_error(response)
+					},
+					complete: function(){
+						//do nothing
+					}
+				});
+				
+				$.cookie('conv_cid_334', '329224', { path: '/', expires: 7 });		
+						
+									
+					$.ajax({
+						url: "/survey/survey",
+						type: "POST",
+						data: { method: 'SetProductImpression', product: 298, tracking_id: '329224' },
+						cache: false,
+						async: true,
+						dataType: 'json',
+						processData: 'false',
+						success: function(response) {
+							// console.log(response);					
+						},
+						fail: function(response) {
+							handle_ajax_error(response)
+						},
+						complete: function(){
+							// do nothing
+						}
+					});					
+								
+			}
+		}
+		
+		if(''=='on'){		
+			myVar = setInterval(function(){ myRedirectTimer() }, 1000);
+		}
+			
+	}
+    // display the question itself
+    questionDiv.innerHTML = q.question;    
+    // remove any existing buttons from answerDiv
+    answerDiv.innerHTML = '';
+
+    // for each option in the 'options' array, create a button
+    for(i = 0; i < q.options.length; i++) {
+		
+        var iDiv = document.createElement('div');
+		// iDiv.id = 'radio';
+		iDiv.className = 'radio';
+		iDiv.style.float = 'left';
+		iDiv.style.clear = 'both';
+		iDiv.style.width = '100%';		
+		// iDiv.style.width = '20%';		
+		// iDiv.style.margin = '5px auto';		
+		
+		btn = document.createElement('button');		
+		btn.setAttribute('type','button');
+		btn.setAttribute('name','answer'+i);
+		btn.setAttribute('id',i);
+		btn.style.color = '#fff';
+		btn.style.whiteSpace = 'normal';
+		btn.style.fontWeight = 'bold';
+		btn.style.background = '#363636';
+		btn.style.padding='25px 0px 10px 0px';
+		btn.style.fontSize='24px';
+		btn.style.borderRadius='0px'
+		btn.className += 'btn btn-lg btn-block';		
+		btn.appendChild(document.createTextNode(q.options[i]));
+		       					
+		// var lblYes = document.createElement('label');
+		// lblYes.setAttribute('for','answer'+i);
+		// lblYes.style.float = 'left';
+		// lblYes.style.paddingLeft = '0px';
+		// lblYes.style.color='#6e6e6e';
+		// lblYes.style.fontSize="18px";
+		
+		
+		
+		
+		
+		var text = document.createTextNode(q.options[i]);	
+		
+        // create the click handler for the button
+        btn.onclick = function() {
+            var id = parseInt(this.getAttribute('id'),10);       
+			if(0==0){
+				var trackQ = $.cookie('q_id_'+q.qid);
+				if(!trackQ){
+					$.ajax({
+						url: "/survey/survey",
+						type: "POST",
+						data: { method: 'SetPartialConv', tracking_id: '329224', question_id: q.qid  },
+						cache: false,
+						async: true,
+						dataType: 'json',
+						processData: 'false',
+						success: function(response) {				
+							
+						},
+						fail: function(response) {
+							handle_ajax_error(response)
+						},
+						complete: function(){
+							//do nothing
+						}
+					});				
+					$.cookie('q_id_'+q.qid, true, { path: '/', expires: 7 }); 			
+				}
+			}
+			displayQuestion(v.shift(),v);
+			numRightSpan.innerHTML = ++numRight;			            
+        }                   
+       
+		answerDiv.appendChild(iDiv);
+		iDiv.appendChild(btn);			
+		// iDiv.appendChild(lblYes); 	
+		// lblYes.appendChild(text);						     
+    }	
+		
+}
+
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    srt = setInterval(function () {
+        minutes = parseInt(timer / 60, 10)
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.text(minutes + ":" + seconds);
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+		if(minutes=='00' && seconds=='00'){
+			// console.log('stop');
+			clearInterval(srt);
+		}
+    }, 1000);
+}
+
+function rand(min,max,interval)
+{
+    if (typeof(interval)==='undefined') interval = 1;
+    var r = Math.floor(Math.random()*(max-min)/interval+interval);
+    return r*interval+min;
+}
+
+checkTimer = 0;
+function myRedirectTimer() {
+	
+    var redirectTimer = $('#getTime').val();
+	if(redirectTimer == 0){
+		stopRedirectTimer();
+		return false;
+	}
+	if(checkTimer > redirectTimer){
+		// console.log('do redirect');
+		stopRedirectTimer();
+		
+		jQuery.ajax({
+			url: "/survey/survey",
+			type: "POST",
+			data: { method: 'getRedirectTimerDetails', survey_id: '417' , returnedClient: '0'},
+			cache: false,
+			async: true,
+			dataType: 'text',
+			processData: 'false',
+			success: function(response) {				
+				if(response!=0){
+					$('#getTime').val('0');
+					var r = jQuery.parseJSON(response);
+					pid = r.pid;
+					rURL = '';
+											console.log(pid+' == '+298);
+						if(pid == 298){
+							rURL = "http://aptrk1.com/?a=251&oc=2968&c=8238&m=3&s1=loamfu";
+						}									
+										if(rURL == ''){
+						console.log('No URL');
+						return false;
+					}
+					// console.log(rURL);
+					redirURL = 	rURL.replace('[[UNIQUE_ID]]', btoa('YvO3l8sEgzj9Oqe2eGfSPSOLgsYencPqgBBmQ0LA_329224_'+pid));	
+					if(0==0){					
+						var encodedCookieForProducs = 'cHJvZHVjdENvb2'+pid;	//tracking pixel cookie CPL
+						var encodedCookieForProducsCPA = 'cHJvZHVjdENQQQ'+pid;	// tracking cookie CPA	
+						var checkProductCookie = $.cookie(encodedCookieForProducs);
+						if(!checkProductCookie){
+							$.cookie(encodedCookieForProducs, 'triggerON', { path: '/', expires: 7 });
+							$.cookie(encodedCookieForProducsCPA, 'triggerON', { path: '/', expires: 7 });
+							
+							$.ajax({
+								url: "/survey/survey",
+								type: "POST",
+								data: { method: 'SetProductClick', product: pid, tracking_id: '329224' },
+								cache: false,
+								async: true,
+								dataType: 'json',
+								processData: 'false',
+								success: function(response) {
+									// console.log(response);
+									var productsIds = '';
+									productsIds += pid+'_';			
+									var encodedProducts = btoa(productsIds);
+									
+									$.ajax({
+										url: "/survey/survey",
+										type: "POST",
+										data: { method: 'SetServerPixel', survey: '417', campaign: '334', tracking_id: '329224', token: 'YvO3l8sEgzj9Oqe2eGfSPSOLgsYencPqgBBmQ0LA', products: encodedProducts, nrp: '', returnedClient: '0' },
+										cache: false,
+										async: true,
+										dataType: 'json',
+										processData: 'false',
+										success: function(response) {
+											window.location.href = redirURL;
+										},
+										fail: function(response) {
+											handle_ajax_error(response)
+										},
+										complete: function(){
+											//do nothing
+											window.location.href = redirURL;
+										}
+									});
+								},
+								fail: function(response) {
+									handle_ajax_error(response)
+								},
+								complete: function(){
+									// do nothing
+								}
+							});							
+						}					
+					}else{
+						window.location.href = redirURL;
+					}				
+				}else{
+					console.log('some err');
+				}
+			},
+			fail: function(response) {
+				
+			}
+		});		
+		return false;
+	}
+	checkTimer = checkTimer + 1;
+	// console.log('check '+ checkTimer);
+}
+
+function stopRedirectTimer() {
+    clearInterval(myVar);
+}
+	
+$(document).on({
+	click: function(){
+		$('#getTime').val('0');		
+	}
+}, '.clickmep');
+
+
+$(document).on({
+	click: function(){
+		$('#getTime').val('0');		
+	}
+}, '.previewImg');
+
+
+$(document).on({
+	click: function(){
+		$('#getTime').val('0');		
+	}
+}, '.sameProdLinkaA');
+</script>
+			    </div> <!--end of fluid container-->
+		    
+		    
+		    
+		    
+		</div><!--end of wrapper main-->
+	    </div> <!--container-fluid-->
+	    
+	    	    
+	<div class="wrapper">
+	    <div class="ladyText">
+		<div class="contentText">
+				<p><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Hi,<br />
+<br />
+We welcome you to the first part of your new career.<br />
+<br />
+You will now go through a quick personality test<br />
+to make sure that you will fit in and have the<br />
+desired skills to start working.<br />
+<br />
+Please be as honest as possible.</span></span></p>
+
+			
+		</div>
+		    
+		<img src="../../../uploads/20160304102939_aussie2.jpg" class="lady"/>
+	    </div><!--ladyText-->
+	
+	    <div class="testWrapper">
+		<div class="testimonials">	
+			<h3>Latest comment by our newest employee.</h3>
+												
+			<div class="test">
+				<img src='../../../uploads/20160302120930_lydia.jpg'>
+				<p><p>Lydia:</p>
+
+<p>Deposited $250 @<strong>aussiemethod</strong>&nbsp;with the verified trader system now my</p>
+
+<p>account sits at over $30k in just a week #Lovethis #millionairestatus</p>
+</p>	
+			</div>								
+						<!--
+		      
+											    
+			  					
+								    
+			    <div class="test">
+				<img src="/uploads/apple_christmass/test2.png">
+				    
+				    <p></p>
+				    <p>Won $344 today. And had a little fun at the same time. Im retired and that Money really helped alot, thanks</p>
+				    <p></p>
+					<p class="name"><i>Barry, 61</i></p>
+			    </div>					
+								    
+			    <div class="test">
+				<img src="/uploads/apple_christmass/test3.png">
+				    
+				    <p></p>
+				    <p>Hey wow. I was like. Free Money, yeah right, but tried it, and have testet for a few weeks now. and won. So basicly thats how I got my new iPhone - That awesome! </p>
+				    <p></p>
+				    <p class="name"><i>Jackie, 21</i></p>
+			    </div>					
+					-->	    
+	    </div><!--testimonials-->
+	 </div>   <!--testWrapper-->
+		
+	</div><!--wrapper-->
+	<script>
+		$(document).ready(function(){
+		var w = $(window).width();
+		
+		if (w>960) {
+		$('#comments').insertAfter('#products');
+			
+		};
+		
+	
+		});
+		
+		$(window).resize(function() {
+			var w = $(window).width();
+			if (w>960) {
+		$('#comments').insertAfter('#products');
+			
+		}else{
+			return false;
+		}
+		
+	    
+		});
+		
+		
+		
+
+
+		
+	</script>
+</body>
+</html>

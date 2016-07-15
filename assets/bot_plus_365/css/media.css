@@ -1,0 +1,158 @@
+@media screen and (max-width: 991px) {
+    .align-center-sm {
+        text-align: center;
+    }
+    .hero-section h1 {
+        font-size: 30px;
+    }
+    .hero-section .green-line {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .hero-section .green-line::after {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    #questions {
+        margin-top: 165px;
+    }
+    .welcome-section {
+        padding-bottom: 55px;
+    }
+    .welcome-text {
+        text-align: center;
+    }
+    .welcome-text h1 {
+        font-size: 30px;
+    }
+    .welcome-text h1::before {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .logo-lg {
+        margin: 35px auto 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background: url(../images/bg-sm.jpg) repeat-y center top;
+    }
+    #questions {
+        width: 100%;
+    }
+    .btn {
+        width: 364px;
+        margin: 0 0 15px 0!important;
+    }
+
+    .border-green {
+        margin-top: 30px; 
+    }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 640px) {
+    #questions {
+        margin-top: 75px;
+    }
+    #questions h2 {
+        font-size: 26px;
+        padding: 0 20px;
+    }
+    .num {
+        float: none;
+        font-size: 36px;
+        width: 100%;
+        padding: 30px 0 0px 0;
+    }
+    .reminder {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 23px;
+        padding: 0 15px;
+    }
+    .request h4 {
+        margin-top: 0;
+    }
+    .logo-box {
+        width: 100%;
+        padding: 30px 20px 20px 20px !important;
+        float: none;
+        text-align: center;
+    }
+    .request {
+        margin-left: 0;
+        text-align: center;
+        padding: 0 10px 10px 10px !important;
+    }
+    .request p {
+        padding-top: 0px;
+    }
+    .comment-block {
+        width: 100%;
+    }
+    .employee {
+        float: none;
+        width: 100%;
+        padding: 20px 20px 0 !important;
+        text-align: center;
+    }
+    .comment {
+        margin-left: 0;
+        background: url(../images/quote.png) no-repeat center bottom 20px;
+        padding: 28px 25px 0;
+        text-align: center;
+    }
+    .time {
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background: #181f28 url(../images/bg-xs.jpg) no-repeat center top;
+    }
+    .block-xs {
+        display: block;
+    }
+    .comment-section h4 {
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn {
+       width: 90%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .block-xs {
+        display: inline;
+    }
+    .btn.click {
+        width: 88%;
+        font-size: 24px !important;
+        line-height: 1.5;
+    }
+}
+@media screen and (max-width: 360px) {
+    .hero-section h1, .welcome-text h1, .comment-section h4 {
+        font-size: 26px;
+    }
+    .hero-section .green-line {
+        font-size: 20px;
+    }
+    .reminder p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,1 @@
+<?php header("Location: http://wetestproducts.com/analytics/click")?>

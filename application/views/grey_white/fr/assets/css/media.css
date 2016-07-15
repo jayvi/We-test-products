@@ -1,0 +1,209 @@
+@media screen and (max-width: 991px) {
+    .question-number {
+        font-size: 209px;
+    }
+    .question-text {
+        font-size: 45px;
+    }
+    .total-question {
+        font-size: 48px;
+    }
+    .question-section {
+        margin-left: 270px;
+    }
+    .question {
+        line-height: 39px;
+        background-position: left 0px;
+        font-size: 26px;
+    }
+    .claim-section {
+        text-align: center;
+    }
+    .claim-block {
+        padding-left: 0;
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+    .claim-block .btn {
+        width: 560px;
+        margin: 0 auto;
+    }
+    .product-image {
+        position: static;
+        max-width: 490px;
+    }
+    .claim-block p {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .main-heading {
+        margin-top: 35px
+    }
+    .checking-section h2 {
+        margin-top: 80px;
+    }
+    .flag-img {
+        position: static;
+        margin: 60px auto 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 94%;
+    }
+    .result {
+        font-size: 22px;
+        padding-bottom: 10px;
+        background-position: left top;
+    }
+    .checking-section {
+        padding-bottom: 50px;
+    }
+    #content3 h2 {
+        font-size: 42px;
+    }
+    #content3 .sub-heading {
+        font-size: 16px;
+    }
+    .claim-block p {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .checking-section h2 {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .main-heading {
+        font-size: 42px;
+    }
+    .top-content-inner .sub-heading {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .top-content-inner p {
+        font-size: 14px;
+    }
+    .question-info {
+        text-align: center;
+        float: none;
+        margin-bottom: 55px;
+    }
+    .question-number {
+        margin-right: 5px;
+        display: inline-block;
+        font-size: 128px;
+    }
+    
+    .question-text {
+        margin-top: -12px!important;
+        font-size: 30px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+    }
+    .total-question {
+        margin-top: -12px;
+        font-size: 30px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .question-section {
+        margin-left: 0;
+    }
+    .question-section .btn {
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: normal;
+        line-height: 1.3;
+        padding: 19px 10px;
+        height: auto;
+    }
+    .claim-block .btn {
+        width: 100%;
+        padding: 20px 10px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .checking-section h2 {
+        font-size: 42px;
+    }
+    .result {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .claim-block p {
+        font-size: 13px;
+    }   
+    .claim-block .btn {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .question-number {
+        font-size: 80px;
+    }
+    .question-text {
+        font-size: 20px;
+    }
+    .total-question {
+        font-size: 20px;
+    }
+    .uploaded-img {
+        max-width: 100%;
+    }
+    .product-image {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+    #content3 h2 {
+        font-size: 36px;
+    }
+    .main-heading {
+        margin-top: 35px;
+    }
+    .question {
+        line-height: 1.2;
+        background-position: left 0px;
+        font-size: 20px;
+    }
+    .checking-section h2 {
+        font-size: 32px;
+    }
+    .result {
+        font-size: 18px;
+    }
+    .claim-block .btn {
+        line-height: 1.2;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .question-section .btn {
+        font-size: 16px;
+    }
+    #content3 h2 {
+        margin: 50px auto 28px;
+    }
+
+}
+@media screen and (max-width: 299px) {
+    .question-number {
+        font-size: 50px;
+    }
+    .question-text, .total-question {
+        font-size: 16px;
+    }
+    .claim-block .btn {
+        font-size: 26px;
+        width: 100%;
+    }
+}

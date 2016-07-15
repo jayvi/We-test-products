@@ -1,0 +1,557 @@
+/* ----------------- */
+/* ----------------- */
+/* --- CSS RESET --- */
+/* ----------------- */
+/* ----------------- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------- */
+/* ----------------- */
+/* --- Common CSS -- */
+/* ----------------- */
+/* ----------------- */
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+sup {
+	vertical-align: super;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+micro.cf:before, .cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+
+.content-box {
+	width: 100%;
+	border: 1px solid rgba(204, 204, 204, 0);
+	border-radius: 4px;
+	background: white;
+	min-height: 320px;
+	position: relative;
+	margin-top: -10px;
+	margin-left: 7em;
+}
+
+.fade {
+	position: absolute;
+	height: 100%;
+	width: 96%;
+	margin: 0px;
+	background: #FFF;
+	display: none;
+	z-index: 999999;
+}
+
+.questions {
+	margin-top: 20px;
+	text-align: center;
+	color: #333333;
+}
+
+.question {
+	display: none;
+}
+
+#question1 {
+	display: block;
+}
+.question-number {
+	font-size: 21px;
+	font-weight: 100;
+}
+
+.question-text {
+	margin-top: 5px;
+	font-size: 38px;
+}
+
+.answer-list {
+}
+.answer-list li {
+	margin-top: 10px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.loader {
+	color: #3b5998;
+	font-size: 42px;
+}
+
+.loader .text {
+	display: none;
+}
+
+.loader-image {
+	position: absolute;
+	top: 260px;
+	text-align: center;
+	width: 100%;
+}
+
+.loader .text1 {
+	padding-top: 80px;
+}
+.loader .text2 {
+	padding-top: 80px;
+}
+.loader .text3 {
+	padding-top: 20px;
+}
+
+.success-header {
+	font-size: 47px;
+	font-weight: bold;
+}
+
+.success-redirect {
+	font-size: 38px;
+}
+
+.prize_boxes {
+	padding: 0 0 0 58px;
+	text-align: center;
+}
+
+.prize_box {
+	color: #222;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding-top: 15px;
+	width: 253px;
+	margin-right: 15px;
+	position: relative; /* disable text-selection */
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.prize_box:hover .prize_title {
+	text-decoration: underline;
+}
+
+.prize_title {
+	color: #3B5998;
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0 2px 10px;
+}
+
+.prize {
+	margin-bottom: 14px;
+}
+
+.stock_box {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #999999;
+	color: #666;
+	display: none;
+	font-size: 13px;
+	font-weight: bold;
+	height: 18px;
+	line-height: 18px;
+	top: 86px;
+	left: 26px;
+	position: absolute;
+	width: 199px;
+	z-index: 1;
+	overflow: hidden; /* disable text-selection */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#content > section {
+	padding: 5px;
+	background-color: white;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	color: #333333;
+	position: absolute;
+	margin-top: 239px;
+	padding-right: 152px;
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+#theTime {
+	color: #dd3c10;
+}
+
+.uibutton, .uibutton:visited {
+	position: relative;
+	z-index: 1;
+	overflow: visible;
+	display: inline-block;
+	padding: 0.3em 0.6em 0.375em;
+	border: 1px solid #999;
+	border-bottom-color: #888;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	font: bold 33px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+	/* outline: none; */
+	color: #333;
+	background-color: #eee;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f6f6), to(#e4e4e3));
+	background-image: -moz-linear-gradient(#f5f6f6, #e4e4e3);
+	background-image: -o-linear-gradient(#f5f6f6, #e4e4e3);
+	background-image: linear-gradient(#f5f6f6, #e4e4e3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f5f6f6', EndColorStr='#e4e4e3'); /* for IE 6 - 9 */
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+	/* IE hacks */
+	zoom: 1;
+	*display: inline;
+}
+
+.uibutton:hover, .uibutton:focus, .uibutton:active {
+	border-color: #777 #777 #666;
+}
+
+.uibutton:active {
+	border-color: #aaa;
+	background: #ddd;
+	filter: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/* overrides extra padding on button elements in Firefox */
+.uibutton::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+.uibutton.confirm {
+	border-color: #29447e #29447e #1a356e;
+	color: white;
+	background-color: #5B74A8;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+	background-image: -moz-linear-gradient(#637bad, #5872a7);
+	background-image: -o-linear-gradient(#637bad, #5872a7);
+	background-image: linear-gradient(#637bad, #5872a7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#637bad', EndColorStr='#5872a7'); /* for IE 6 - 9 */
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+}
+
+.uibutton.confirm:active {
+	border-color: #29447E;
+	background: #4F6AA3;
+	filter: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#like {
+	margin-left: 15px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+}
+
+#spinBG {
+	z-index: 1;
+	width: 440px;
+}
+
+#spin {
+	z-index: 2;
+	position: absolute;
+	top: 23px;
+	left: 59px;
+	width: 425px;	
+	display: block;
+}
+
+#win, #win2, #win3, #winP, #winP1, #winP2 {
+	position: absolute;
+	z-index: 3;
+	width: 90px;
+	left: 226px;
+	top: 186px;
+}
+
+#win2, #win3, #winP, #winP1, #winP2 {
+	display: none;
+}
+
+#iphone {
+	z-index: 4;
+	width: 151px;
+	top: 35px;
+	left: 143px;
+	position: absolute;
+	display: none;
+	top: 22px;
+	left: 59px;
+	position: absolute;
+	display: none;
+	width: 426px;
+}
+
+#spinner {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 50px;
+}
+
+#contentText {
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -300px;
+	font-size: 1.1em;
+	width: 12em;
+	color: #333333;
+}
+
+#contentText > h1 {
+	font-size: 1.5em;
+	width: 15em;
+	color: rgb(59, 89, 152);
+	margin-left: 120px;
+	font-weight: 100;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#contentText > p:nth-child(2) {
+	font-size: 16px;
+	width: 18em;
+	color: #333333;
+	margin-left: 120px;
+	margin-bottom: 20px;
+}
+
+#contentText > p {
+	margin-left: 120px;
+	color: #999999;
+	font-size: 16px;
+	margin-top: 10px;
+	width: 14em;
+}
+
+#contentText > img {
+	margin-left: 120px;
+}
+
+.spinAround {
+	-webkit-animation: spin 6.6s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	-webkit-animation-fill-mode: forwards; /*Chrome 16+, Safari 4+*/
+	-moz-animation-fill-mode: forwards; /*FF 5+*/
+	-o-animation-fill-mode: forwards; /*Not implemented yet*/
+	-ms-animation-fill-mode: forwards; /*IE 10+*/
+	animation-fill-mode: forwards; /*when the spec is finished*/
+	display: block;
+}
+
+@-webkit-keyframes spin {
+	
+	0% {
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+	
+	90% {
+	-webkit-transform: rotate(2210deg);
+	-ms-transform: rotate(2210deg);
+	transform: rotate(2210deg);
+	}
+	
+	95% {
+	-webkit-transform: rotate(2108deg);
+	-ms-transform: rotate(2108deg);
+	transform: rotate(2108deg);
+	}
+	
+	100% {
+	-webkit-transform: rotate(2109deg);
+	-ms-transform: rotate(2109deg);
+	transform: rotate(2109deg);
+	}
+
+
+}
+@-moz-keyframes spin {
+	0% {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+	
+	90% {
+	-webkit-transform: rotate(2210deg);
+	-ms-transform: rotate(2210deg);
+	-moz-transform: rotate(2210deg);
+	transform: rotate(2210deg);
+	}
+	
+	95% {
+	-webkit-transform: rotate(2108deg);
+	-ms-transform: rotate(2108deg);
+	-moz-transform: rotate(2108deg);
+	transform: rotate(2108deg);
+	}
+	
+	100% {
+	-webkit-transform: rotate(2109deg);
+	-ms-transform: rotate(2109deg);
+	-moz-transform: rotate(2109deg);
+	transform: rotate(2109deg);
+	}	
+}
+
+@keyframes spin {
+
+	0% {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	
+	transform: rotate(0deg);
+	
+	}
+	
+	90% {
+	-webkit-transform: rotate(2210deg);
+	-ms-transform: rotate(2210deg);
+	-moz-transform: rotate(2210deg);
+	transform: rotate(2210deg);
+	}
+	
+	95% {
+	-webkit-transform: rotate(2108deg);
+	-ms-transform: rotate(2108deg);
+	-moz-transform: rotate(2108deg);
+	transform: rotate(2108deg);
+	}
+	
+	100% {
+	-webkit-transform: rotate(2109deg);
+	-ms-transform: rotate(2109deg);
+	-moz-transform: rotate(2109deg);
+	transform: rotate(2109deg);
+	}
+}
+.spinAround2 {
+	-webkit-animation: spin2 6.6s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	-webkit-animation-fill-mode: forwards; /*Chrome 16+, Safari 4+*/
+	-moz-animation-fill-mode: forwards; /*FF 5+*/
+	-o-animation-fill-mode: forwards; /*Not implemented yet*/
+	-ms-animation-fill-mode: forwards; /*IE 10+*/
+	animation-fill-mode: forwards; /*when the spec is finished*/
+}
+@-webkit-keyframes spin2 {
+0% {
+-webkit-transform: rotate(3109deg);
+-ms-transform: rotate(3109deg);
+transform: rotate(3109deg);
+}
+
+90% {
+-webkit-transform: rotate(6314deg);
+-ms-transform: rotate(6314deg);
+transform: rotate(6314deg);
+}
+
+95% {
+-webkit-transform: rotate(6312deg);
+-ms-transform: rotate(6312deg);
+transform: rotate(6312deg);
+}
+
+100% {
+-webkit-transform: rotate(6313deg);
+-ms-transform: rotate(6313deg);
+transform: rotate(6313deg);
+}
+}
+
+.Op {
+	opacity: 0.6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#contentText > #loader {
+	margin-left: 160px;
+}
+
+#verf {
+	color: #333333;
+	display: none;
+	margin-left: 115px;
+	width: 13em;
+}

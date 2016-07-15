@@ -1,0 +1,19 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-04-07 06:33:16 --> 404 Page Not Found --> grey_white
+ERROR - 2016-04-07 10:42:09 --> 404 Page Not Found --> abc
+ERROR - 2016-04-07 10:42:17 --> 404 Page Not Found --> qwerty
+ERROR - 2016-04-07 10:42:38 --> 404 Page Not Found --> 123
+ERROR - 2016-04-07 10:45:46 --> 404 Page Not Found --> 456
+ERROR - 2016-04-07 11:17:29 --> 404 Page Not Found --> analytics/setWcookie
+ERROR - 2016-04-07 11:17:32 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:18:43 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:19:01 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:19:10 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:19:22 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:20:11 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:20:51 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:21:40 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:28:17 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:32:10 --> 404 Page Not Found --> assets
+ERROR - 2016-04-07 11:34:44 --> 404 Page Not Found --> assets
