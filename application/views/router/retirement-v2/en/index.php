@@ -50,10 +50,9 @@
 	<div id="wrapper">
 		<section id="main-section">
 			<div class="container pos-rel">
-				<div class="heading">
-					<h1>Free Report Guides You To Your Dream 
-						Retirement With Enough Money To 
-						<span class="block">Travel 7 Times A Year!</span>
+				<div class="heading" >
+					<h1 style="font-size: 39px;">Retire rich and make your life one big holiday!
+						 <span class="block">This free report will give you the freedom to travel whenever you want all the places of your dreams!</span> 
 					</h1>
 				</div>
 				<div class="banner-content">
