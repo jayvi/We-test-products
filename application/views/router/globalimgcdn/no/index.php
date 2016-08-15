@@ -244,7 +244,7 @@
 					<h2 style="text-align:center; color:#fff;"><strong>Du har vunnet en ny Samsung 55" UHD SMART LED-TV</strong></h2>
 				</div>
 				<div class="prize">
-					<img width="100%" src="<?php echo base_url()?>assets/globalimgcdn/img/9tv.png">
+					<img width="100%" src="<?php echo base_url()?>assets/globalimgcdn/img/9tvno.png">
 				</div>
 				<!--PUT LINK BELOW INSIDE -> HREF="HTTP://WWW.YOURLINK.COM" -->
 				<a href="<?php echo $buttonURL;?>" class="claim">

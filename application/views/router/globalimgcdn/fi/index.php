@@ -108,44 +108,44 @@
 
 				</div>
 				<div class="topbox">
-					<h2 style=" text-align:center; color:#fff;"><strong>GRATULERER!</strong></h2>
-					<h4 style="color:#fff;">Du har blitt valgt ut til å delta i denne eksklusive undersøkelsen!</h4>
+					<h2 style=" text-align:center; color:#fff;"><strong>ONNEA!</strong></h2>
+					<h4 style="color:#fff;">Sinut on valittu osallistumaan hienoon tutkimukseen!</h4>
 					<p>
-						Smart TV Sverige har blitt tildelt Beste Elektronikkbutikk 2015!
+						Smart TV Sweden on palkittu vuoden 2015 Parhaana Elektroniikkakauppana
 					</p>
 					<p>
-						For å feire dette gir vi bort premier til vinnerne som er nærme en av de 75 stedene.
+						Juhliaksemme tätä, annamme palkintoja voittajille, jotka ovat minkä tahansa 75 sijainnin lähellä
 					</p>
 					<p>
-						Du er heldig siden ditt postnummer er trukke til å motta denne e-posten! Vennligst svar på alle spørsmålene og få din premie.
+						Olet onnekas, koska postinumerosi perusteella saat tämän sähköpostin! Vastaathan kaikkiin kysymyksiin ja voit lunastaa palkintosi.
 					</p>
 					<p>
-						Samsung 55" UHD SMART LED-TV til en verdi av 10995 SEK
+						Samsung 55'' UHD SMART LED-TV arvoltaan 1166 €
 					</p>
 					<p>
-						Kjapp deg! Begrenset antall!
+						Toimi nopeasti! Rajallinen varasto!
 					</p>
 				</div>
 
 				<div class="mid_box">
 					<div id="q1">
 						<p class="question">
-							<strong>S1:</strong> Hvor mange ganger har du kjøpt et produkt fra Smart TV Sverige/eller elektronikkbutikk i år?
+							<strong>K1:</strong> Kuinka usein olet ostanut tuotteen Smart TV Sweden elektroniikkakaupasta tänä vuonna?
 						</p>
 						<div class="button1 bq1">
-							0-4 ganger
+							0-4 kertaa
 						</div>
 						<div class="button1 bq1">
-							5-10 ganger
+							5-10 kertaa
 						</div>
 						<div class="button1 bq1">
-							Mer enn 10 ganger
+							Enemmän kuin 10 kertaa
 						</div>
 					</div>
 
 					<div id="q2">
 						<p class="question">
-							<strong>S2:</strong> Hvilke elektronikkmerker foretrekker du?
+							<strong>K2:</strong> Mistä elektroniikkamerkeistä pidät eniten?
 						</p>
 						<div class="button1 bq2">
 							Philips
@@ -166,72 +166,72 @@
 							Sharp
 						</div>
 						<div class="button1 bq2">
-							Ingen av de ovennevnte
+							Ei mikään yllä olevista
 						</div>
 					</div>
 
 					<div id="q3">
 						<p class="question">
-							<strong>S3:</strong> Hvordan betaler du vanligvis for disse kjøpene?
+							<strong>K3:</strong>  Miten yleensä maksat ostoksesi?
 						</p>
 						<div class="button1 bq3">
-							Kontant
+							Käteinen
 						</div>
 						<div class="button1 bq3">
-							Sjekk
+							Lasku
 						</div>
 						<div class="button1 bq3">
-							Debetkort
+							Pankkikortti
 						</div>
 						<div class="button1 bq3">
-							Kredittkort
+							Luottokortti
 						</div>
 					</div>
 
 					<div id="q4">
 						<p class="question">
-							<strong>S4:</strong> Hvordan vil du rangere vår kundeservice?
+							<strong>K4:</strong> Miten arvioisit asiakaspalvelumme?
 						</p>
 						<div class="button1 bq4">
-							1/5
+							1.5
 						</div>
 						<div class="button1 bq4">
-							2/5
+							2.5
 						</div>
 						<div class="button1 bq4">
-							3/5
+							3.5
 						</div>
 						<div class="button1 bq4">
-							4/5
+							4.5
 						</div>
 						<div class="button1 bq4">
-							5/5
+							5.5
 						</div>
 					</div>
 				</div>
 
 			</div>
 			<div class="main-content" id="content2">
-				<h1 style="text-align:center;">Vennligst vent mens vi kontrollerer lager….</h1>
+				<h1 style="text-align:center;">Odotathan, että tarkistamme varastoa…</h1>
 				<p class="loading"><img src="<?php echo base_url()?>assets/globalimgcdn/img/loading.gif">
 				</p>
 				<p class="result" id="result1">
-					1/4….Notert
+					1/4….Huomioitu
 				</p>
 				<p class="result" id="result2">
-					2/4….Notert
+					2/4….Huomioitu
 				</p>
 				<p class="result" id="result3">
-					3/4….Notert
+					3/4….Huomioitu
 				</p>
 				<p class="result" id="result4">
-					4/4….Notert
+					4/4….Huomioitu
 				</p>
 				<p class="result" id="result5">
-					Ingen doble registreringer funnet
+					Tuplarekisteröintiä ei löytynyt
 				</p>
 				<p class="result" id="result6">
-					Det er fortsatt flere TV-er tilgjengelig
+					Edelleen useita televisioita on saatavilla
 				</p>
 			</div>
 
@@ -240,21 +240,21 @@
 					<img src="<?php echo base_url()?>assets/globalimgcdn/img/logo.png">
 				</div>
 				<div class="topbox">
-					<h2 style="text-align:center; color:#fff;"><strong>GRATULERER!</strong></h2>
-					<h2 style="text-align:center; color:#fff;"><strong>Du har vunnet en ny Samsung 55" UHD SMART LED-TV</strong></h2>
+					<h2 style="text-align:center; color:#fff;"><strong>ONNEA!</strong></h2>
+					<h2 style="text-align:center; color:#fff;"><strong>Olet voittanut uuden Samsung 55'' UHD SMART LED-TV:n</strong></h2>
 				</div>
 				<div class="prize">
-					<img width="100%" src="<?php echo base_url()?>assets/globalimgcdn/img/9tv.png">
+					<img width="100%" src="<?php echo base_url()?>assets/globalimgcdn/img/9tvfi.png">
 				</div>
-				<!--PUT LINK BELOW INSIDE -> HREF="HTTP://WWW.YOURLINK.COM" -->
+				
 				<a href="<?php echo $buttonURL;?>" class="claim">
 				<div class="button1">
-					Lås opp din premie her
+					Lunasta palkintosi täällä
 				</div></a>
 
 			</div>
 			<center>
-				Denne konkurransen er ikke tilbudt av Smart TV Sverige direkte, men av GoSkilly
+				Tämän kilpailun on tarjonnut GoSkilly, ei Smart TV Sweden
 			</center>
 		</div>
 
