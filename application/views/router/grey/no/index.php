@@ -29,7 +29,7 @@
 			</p>
 			<div class="main-content flag" style="    background: url(<?php echo base_url('assets/'.$options[0]['view'])?>/assets/images/flag-no.png) #fff no-repeat 98% 20px;" id="content1">
 				<h1>TEST OG BEHOLD</h1>
-				<h2>Din enhet har blitt tilfeldig valgt til å teste den splitter nye iPhone 7! Etter at du testet den kan du BEHOLDE den!</h2>
+				<h2 style="    margin: 3em 0 0;">Din enhet har blitt tilfeldig valgt til å teste den splitter nye iPhone 7! Etter at du testet den kan du BEHOLDE den!</h2>
 				<p>
 					Dette er ikke en spøk! Du er invitert til å delta i testing av vår splitter nye iPhone 7. Vi leter etter <strong style="color: #084BBF;">(3) flere brukere</strong> om tilbakemelding slik at vi kan gjøre den kommende iPhone 7 den beste iPhone noensinne.
 				
